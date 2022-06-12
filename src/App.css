@@ -154,6 +154,7 @@ border: none;
   .social__media li a {
     color: #FFFFFF;
     margin-left: 1rem;
+    margin-right: 1rem;
   }
   .social__media img {
     width: 50px;
