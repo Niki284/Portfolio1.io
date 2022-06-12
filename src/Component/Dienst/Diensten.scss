@@ -1,0 +1,25 @@
+
+.dinst {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .dinst__card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lightblue;
+        border-radius: 0.5rem;
+        flex-direction: column;
+        margin: 3rem;
+    }
+    .dinst__logo img {
+        margin: 1rem;
+        height: 6rem;
+        width: 6rem;
+    }
+    .dinst__text{
+        padding: 1rem;
+        width: 17rem;
+    }
+}

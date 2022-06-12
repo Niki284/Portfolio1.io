@@ -1,0 +1,44 @@
+
+.btn {
+  font-size: 1.3rem;
+  text-align: center;
+  
+  }
+  .btn button ,.btn__link{
+    height: 2.5rem;
+    width: 6.5rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(255, 248, 248, 0.32);
+    box-shadow: 0px 4px 4px #98b5ec;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    transition: 0.5s;
+  }
+  button:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), rgba(255, 248, 248, 0.3);
+    box-shadow: 0px 4px 4px #2d3950;
+  }
+ 
+    .btn__link {
+      height: 2.5rem;
+      width: 6.5rem;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(255, 248, 248, 0.32);
+      box-shadow: 0px 4px 4px #98b5ec;
+      color: #FFFFFF;
+      border-radius: 4px;
+      padding: 0.5rem;
+      border: none;
+      text-decoration: none;
+      transition: 0.5s;
+    }
+    .btn__link:hover {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), rgba(255, 248, 248, 0.3);
+      box-shadow: 0px 4px 4px #2d3950;
+    } 
+    .back {
+      text-align: left;
+  }
+  .btn-left {
+    margin: 3rem;
+  }
+

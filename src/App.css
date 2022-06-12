@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p , a , label{
+  color: #FFFFFF;
+}
+.info {
+  /*position: absolute; */
+  left: 10.4%;
+  display: flex;
+  /* right: 9.87%; */
+  top: 11.09%;
+  
+  /* bottom: 11.09%; */
+  /* background: rgba(0, 0, 0, 0.25); */
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.info__img {
+  padding: 1rem;
+}
+.info__img img{
+  height: 20rem;
+  /* border: 2px inset; */
+  border: 2mm ridge rgba(211, 220, 50, .6);
+  border-radius: 0.25rem;
+
+}
+
+.info__text {
+  /* Mijn naam is Filip Ik ben 22 jaar oud.Ik kom uit Wit-Rusland. Mijn hobby is schaken tennis spelen met vrienden,gaan zwemmen. Ik studeer nu de Electronica ICT op Technologiecampus Odisee in Gent. */
+  margin: 1rem;
+ /*position: absolute; */
+ min-width: 10rem;
+ max-width: 35rem;
+ bottom: 14.54%;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 24px;
+}
+
+.Navi {
+  font-size: 2rem;
+  display: flex;
+  /* align-items: center; */
+  height: 18rem;
+  flex-direction: column;
+
+}
+
+.Cards {
+  margin: 3.5rem;
+}
+.Card {
+  display: flex;
+  text-align: center;
+  margin: 0 0 12rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Card h2, .Card p{
+  display: block;
+  text-align: left;
+  min-width: 15rem;
+  line-height: 1.5rem;
+  max-width: 20rem;
+  margin: 1rem;
+  padding-left: 0.5rem;
+}
+.Card img{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 1rem;
+  fill:#FFFFFF;
+}
+
+/* contact page */
+.contact--title {
+  display: block;
+  text-align: center;
+}
+.inputs {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+ 
+  font-size: 1.5rem;
+
+}
+.inputs label {
+/* Firstname */
+
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+}
+
+.inputs input {
+  /* Rectangle 5 */
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border-radius: 0.65rem;
+  border: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(255, 248, 248, 0.32);
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /*
+
+
+border-radius: 10px;
+height: 2.5rem;
+border: none;
+*/
+}
+.inputs input:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+.inputs input::placeholder {
+  font-size: 1.3rem;
+}
+
+/* social*/
+.social {
+  margin-top: 1rem;
+}
+ .social__media {
+  display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    flex-wrap: wrap;
+    /* font-size: 2rem;*/
+  }
+  .social__media li a {
+    color: #FFFFFF;
+    margin-left: 1rem;
+  }
+  .social__media img {
+    width: 50px;
+    height: 50px; 
+       box-shadow: 0 0 8px #1c32aa;
+    border-radius: 50%;
+    padding: 0.5rem;
+    transition: 0.5s;
+    filter: invert(1);
+  }
+  .social__media img:hover {
+    fill: #e27e7e;
+    filter: invert(0.45);
+
+
+  }
+
+  .projectDetail {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12vw;
+  }
+  .projectDetail-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  .projectDetail-li {
+    padding: 1rem;
+    background-color: #e5b779;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 4px 2px 12px 4px red;
+    color:black;
+    transition: 0.5s;
+  }
+  .projectDetail-link {
+      font-size: 2rem;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+  }
+ 
+  .projectDetail-li:hover {
+    box-shadow: 8px 8px 8px 2px #e75c5c;
+  }
+  .projectDetail-li:focus {
+    border: 2px solid;
+  }
+  .projectDetail-2 {
+    background-color: #e27e7e;
+  }
+   .projectDetail-2:hover {
+    box-shadow: 8px 8px 8px 2px #e5b779;
+  }
+  .main {
+    padding: 1rem 0 0 0;
+    margin: 1rem 0 0 0;
+  }
