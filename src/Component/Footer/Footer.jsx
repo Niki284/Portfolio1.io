@@ -11,7 +11,7 @@ export const Footer = () => {
       </ul>
     </div>
          <div className='btn'>
-          <a className='btn__link' href="/contact">Contact me...</a>
+          <a className='btn__link conti' href="/contact">Contact me...</a>
           </div>
       </footer>
     
