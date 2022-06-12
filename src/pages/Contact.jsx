@@ -32,7 +32,7 @@ const Contact = () => {
           </ul>
         </div>
         <div className='btn'>
-          <a className='btn__link' href="/">Versturen</a>
+          <a className='btn__link conti' href="/">Versturen</a>
         </div>
     </div>
     
