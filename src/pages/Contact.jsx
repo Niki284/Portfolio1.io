@@ -31,8 +31,8 @@ const Contact = () => {
             <li><a href="https://discord.gg/AmGMzdVf"><img src={discordimg} alt="" /></a></li>
           </ul>
         </div>
-        <div className='btn'>
-          <a className='btn__link conti' href="/">Versturen</a>
+        <div className='btn conti'>
+          <a className='btn__link' href="/">Versturen</a>
         </div>
     </div>
     
