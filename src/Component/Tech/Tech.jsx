@@ -12,7 +12,7 @@ export default function Tech() {
   return (
     <div className='tech'>
         <div className='tech-content'>
-            <h2 className='contact--title'>Fremworks</h2>
+            <h2 className='contact--title'>Frameworks</h2>
             <div className='tech--info'>
                 <img src={img3} alt=""></img>
                 <p>React</p>
