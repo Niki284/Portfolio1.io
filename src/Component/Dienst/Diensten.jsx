@@ -17,9 +17,9 @@ function Diensten() {
                 <h2>Front-end</h2>
                     <p> 
                         Ik ken front-end.
-                        Ik kan website maken een designen.
-                        Een ok kan ik mensen helpen met designen een coderen.
-                          </p>
+                        Ik kan een website maken en designen.
+                       En ik kan ook mensen helpen met designen en coderen.
+                   </p>
             </div>
         </div>
         <div className='dinst__card'>
