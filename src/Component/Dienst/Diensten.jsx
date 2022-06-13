@@ -14,10 +14,12 @@ function Diensten() {
                 <img src={dinst} alt="" />
             </div>
             <div class="dinst__text">
-                <h2>Elektriciteit</h2>
+                <h2>Front-end</h2>
                     <p> 
-                        Ik heb elektiker gewerkt bij een Giec.
-                    </p>
+                        Ik ken front-end.
+                        Ik kan website maken een designen.
+                        Een ok kan ik mensen helpen met designen een coderen.
+                          </p>
             </div>
         </div>
         <div className='dinst__card'>
@@ -27,7 +29,7 @@ function Diensten() {
             <div class="dinst__text">
                 <h2>Elektriciteit</h2>
                     <p> 
-                        Ik heb elektiker gewerkt bij een Giec.
+                        ik heb al elektricien gewerkt bij GIEC.
                     </p>
             </div>
         </div>
