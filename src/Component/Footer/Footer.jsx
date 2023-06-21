@@ -6,7 +6,7 @@ export const Footer = () => {
          <footer className='footer'>
       <div>
       <ul className='footer-liste'>
-        <li className='footer-lis'>Mijn GSM: <a className='footer-link' href="0484199928">0484199928</a></li>
+        <li className='footer-lis'>Mijn GSM: <a className='footer-link' href="0472554036">0472554036</a></li>
         <li className='footer-lis'>Mijn Email is: <a className='footer-link' href="dymovich2015@mail.ru">dymovich2015@mail.ru</a></li>
       </ul>
     </div>
