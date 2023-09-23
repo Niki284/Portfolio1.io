@@ -1,10 +1,15 @@
 import React from 'react'
 import './Header.css';
-import {Link, NavLink} from 'react-router-dom'
+import {Link, NavLink, useLocation} from 'react-router-dom'
 import { useState } from 'react';
 import menu from '../asents/logo-img/iconmonstr-menu-thin.svg'
 
 function Header({links}) {
+      //
+      const location = useLocation();
+      //
+      const isHomePage = location.pathname === "/";
+
     const [isOpen , setIsOpen ] = useState(false);
   return (
     <div className='Navi'>
@@ -14,7 +19,7 @@ function Header({links}) {
         </button>
           <nav class={`menu-nav ${isOpen ? 'menu-nav--open': 'menu-nav--closed'}`}>
             <ul className={isOpen? '': "non"}>
-              {links.map(e=><NavLink key = {e.path} to = {e.path}>{e.name}</NavLink>)}
+              {links.map(e => isHomePage && e.name === "Detail" ? null : <NavLink key = {e.path} to = {e.path}>{e.name}</NavLink>)}
             </ul>
         </nav>
 
