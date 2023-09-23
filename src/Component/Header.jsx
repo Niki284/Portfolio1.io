@@ -9,6 +9,10 @@ function Header({links}) {
       const location = useLocation();
       //
       const isHomePage = location.pathname === "/";
+      const isAboutPage = location.pathname === "/about";
+      const isProjectenPage = location.pathname === "/projecten";
+      const isContactPage = location.pathname === "/contact";
+      const isHiddenDetail = isHomePage || isAboutPage || isProjectenPage  || isContactPage ;
 
     const [isOpen , setIsOpen ] = useState(false);
   return (
@@ -19,7 +23,7 @@ function Header({links}) {
         </button>
           <nav class={`menu-nav ${isOpen ? 'menu-nav--open': 'menu-nav--closed'}`}>
             <ul className={isOpen? '': "non"}>
-              {links.map(e => isHomePage && e.name === "Detail" ? null : <NavLink key = {e.path} to = {e.path}>{e.name}</NavLink>)}
+              {links.map(e => isHiddenDetail && e.name === "Detail" ? null : <NavLink key = {e.path} to = {e.path}>{e.name}</NavLink>)}
             </ul>
         </nav>
 
