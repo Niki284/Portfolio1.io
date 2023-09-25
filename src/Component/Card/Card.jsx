@@ -9,7 +9,7 @@ const Card = ({data, hiddenButton}) => {
           <div class="card__text">
             <h2>{data.name}</h2>
             <p>{data.info}</p>
-            !hiddenButton &&<Button link = {data.id}/>
+            {!hiddenButton &&<Button link = {data.id}/>}
           </div> 
         </div>
   )
