@@ -27,7 +27,7 @@ const Detailproject = () => {
 
       {projectLoading && <p>Loading...</p>}
       {projectError && <p>Something went wrong...</p>}
-      {arrayList && <Card data={arrayList.projects.find((e) => e.id == id)} />}
+      {arrayList && <Card hiddenButton data={arrayList.projects.find((e) => e.id == id)} />}
 
       <div className="projectDetail">
         <h1>Bezoek mijn project</h1>
