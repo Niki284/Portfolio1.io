@@ -30,6 +30,7 @@
       border: none;
       text-decoration: none;
       transition: 0.5s;
+      text-transform:uppercase;
     }
     .btn__link:hover {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), rgba(255, 248, 248, 0.3);
