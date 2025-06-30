@@ -1,7 +1,7 @@
 
 import React from 'react'
-import dinst from '../../asents/logo-img/dinst.png'
-import dinst2 from '../../asents/logo-img/dinst2.png'
+import dinst from '../../assets/logo-img/dinst.png'
+import dinst2 from '../../assets/logo-img/dinst2.png'
 import './Diensten.css'
 function Diensten() {
   return (

@@ -8,7 +8,7 @@ const Home = () => {
     <div className='main'>
       <AboutHome/>
       <h1 className='contact--title'>Projecten</h1>
-      <Cards />
+      <Cards limit={3} />
       <Footer/>
      
     </div>

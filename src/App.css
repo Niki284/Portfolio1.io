@@ -52,36 +52,7 @@ font-family: Lato;
   height: 18rem;
   flex-direction: column;
 
-}
-
-.Cards {
-  margin: 3.5rem;
-}
-.Card {
-  display: flex;
-  text-align: center;
-  margin: 0 0 12rem 0;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.Card h2, .Card p{
-  display: block;
-  text-align: left;
-  min-width: 15rem;
-  line-height: 1.5rem;
-  max-width: 20rem;
-  margin: 1rem;
-  padding-left: 0.5rem;
-}
-.Card img{
-  height: 20rem;
-  width: 20rem;
-  border-radius: 1rem;
-  fill:#FFFFFF;
-}
+ }
 
 /* contact page */
 .contact--title {
@@ -218,5 +189,30 @@ border: none;
   }
   .main {
     padding: 1rem 0 0 0;
-    margin: 1rem 0 0 0;
+    /* margin: 1rem 0 0 0; */
+
+    margin-top: 6rem !important;
   }
+
+
+  .button-wrapper {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0a84ff;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+  background-color: #006fdd;
+  transform: translateY(-2px);
+}

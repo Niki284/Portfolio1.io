@@ -14,8 +14,8 @@ export default function Abouts() {
             Ik ben 22 jaar oud.Ik kom uit Wit-Rusland.
             Mijn hobby is schaken tennis spelen met vrienden,gaan zwemmen.
             </p>
-            <div className='btn'>
-                <a className='btn__link' href="/about">More...</a>
+            <div className='button-wrapper'>
+                <a className='btn-primary' href="/about">Meer bekijken →</a>
             </div>
             
         </div>
