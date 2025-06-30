@@ -7,14 +7,9 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p , a , label{
 font-family: Lato;
 }
 .info {
-  /*position: absolute; */
   left: 10.4%;
   display: flex;
-  /* right: 9.87%; */
   top: 11.09%;
-  
-  /* bottom: 11.09%; */
-  /* background: rgba(0, 0, 0, 0.25); */
   justify-content: center;
   flex-wrap: wrap;
 
@@ -25,16 +20,13 @@ font-family: Lato;
 }
 .info__img img{
   height: 20rem;
-  /* border: 2px inset; */
   border: 2mm ridge rgba(211, 220, 50, .6);
   border-radius: 0.25rem;
 
 }
 
 .info__text {
-  /* Mijn naam is Filip Ik ben 22 jaar oud.Ik kom uit Wit-Rusland. Mijn hobby is schaken tennis spelen met vrienden,gaan zwemmen. Ik studeer nu de Electronica ICT op Technologiecampus Odisee in Gent. */
   margin: 1rem;
- /*position: absolute; */
  min-width: 10rem;
  max-width: 35rem;
  bottom: 14.54%;
@@ -48,13 +40,11 @@ font-family: Lato;
 .Navi {
   font-size: 2rem;
   display: flex;
-  /* align-items: center; */
   height: 18rem;
   flex-direction: column;
 
  }
 
-/* contact page */
 .contact--title {
   display: block;
   text-align: center;
@@ -69,7 +59,6 @@ font-family: Lato;
 
 }
 .inputs label {
-/* Firstname */
 
 
 font-family: 'Inika';
@@ -83,7 +72,6 @@ color: #FFFFFF;
 }
 
 .inputs input {
-  /* Rectangle 5 */
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -96,13 +84,6 @@ color: #FFFFFF;
   color: #ddd;
   transition: 0.5s;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  /*
-
-
-border-radius: 10px;
-height: 2.5rem;
-border: none;
-*/
 }
 .inputs input:focus {
   box-shadow: 0 0 10px 4px #34495e;
@@ -111,7 +92,6 @@ border: none;
   font-size: 1.3rem;
 }
 
-/* social*/
 .social {
   margin-top: 1rem;
 }
@@ -121,7 +101,6 @@ border: none;
     text-decoration: none;
     list-style-type: none;
     flex-wrap: wrap;
-    /* font-size: 2rem;*/
   }
   .social__media li a {
     color: #FFFFFF;
@@ -189,8 +168,6 @@ border: none;
   }
   .main {
     padding: 1rem 0 0 0;
-    /* margin: 1rem 0 0 0; */
-
     margin-top: 6rem !important;
   }
 
