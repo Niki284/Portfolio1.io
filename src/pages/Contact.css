@@ -41,17 +41,43 @@
   gap: 1rem;
   list-style: none;
   padding: 0;
+  perspective: 600px;  /* <-- essentieel voor 3D */
 }
 
 .social-media li img {
   width: 32px;
   height: 32px;
-  transition: transform 0.3s ease;
+  filter: brightness(0) invert(1); /* maakt zwart-wit naar wit */
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 32px;
 }
 
+
 .social-media li img:hover {
-  transform: scale(1.2);
+  filter: brightness(0) saturate(100%) sepia(1) hue-rotate(180deg) saturate(5) brightness(1.2);
+  transform: rotateY(15deg) scale(1.2);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4),
+              0 0 10px #00f7ff; /* lichte glow */
 }
+.linkedin img:hover {
+  filter: invert(50%) sepia(100%) hue-rotate(200deg); /* blauw */
+}
+
+.github img:hover {
+  filter: invert(50%) sepia(100%) hue-rotate(120deg); /* groen */
+}
+
+.facebook img:hover {
+  filter: invert(50%) sepia(100%) hue-rotate(300deg); /* paars */
+}
+
+.discord img:hover {
+  filter: invert(50%) sepia(100%) hue-rotate(60deg); /* geel */
+}
+
+
 
 .contact-form {
   display: flex;

@@ -17,6 +17,7 @@ const inputData = {
 
 const Contact = () => {
   return (
+    <div className="main">
     <div className="contact-container">
       <h1 className="contact-title">Contact Me</h1>
 
@@ -33,10 +34,9 @@ const Contact = () => {
           </div>
 
           <ul className="social-media">
-            <li><a href="https://www.linkedin.com"><img src={linkendin} alt="LinkedIn" /></a></li>
-            <li><a href="https://github.com/Niki284"><img src={github} alt="GitHub" /></a></li>
-            <li><a href="https://facebook.com"><img src={faceboock} alt="Facebook" /></a></li>
-            <li><a href="https://discord.gg/AmGMzdVf"><img src={discordimg} alt="Discord" /></a></li>
+            <li className="linkedin"><a href="https://www.linkedin.com"><img src={linkendin} alt="LinkedIn" /></a></li>
+            <li className="github"><a href="https://github.com/Niki284"><img src={github} alt="GitHub" /></a></li>
+            <li className="discord"><a href="https://discord.gg/AmGMzdVf"><img src={discordimg} alt="Discord" /></a></li>
           </ul>
         </div>
 
@@ -46,10 +46,11 @@ const Contact = () => {
             {Object.entries(inputData).map(([key, label]) => (
               <Inputs key={key} data={[key, label]} />
             ))}
-            <button type="submit" className="btn__link">Versturen</button>
+            <button type="submit" className="btn-primary">Versturen</button>
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 };
