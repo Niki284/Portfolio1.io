@@ -1,5 +1,4 @@
 import './App.css';
-// import './cstyle.css'
 import {Routes, Route, Link, Router} from 'react-router-dom';
 import {Home} from './pages/Home';
 import {About} from './pages/About';
